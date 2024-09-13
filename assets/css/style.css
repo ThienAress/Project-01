@@ -43,17 +43,26 @@ a {
   opacity: 0.9;
 }
 /* Header */
-.header {
+.header-wrap {
   position: relative;
   background: #e6f0ff;
   height: 100vh;
 }
 
 /* Navbar */
+.sticky-header {
+  background: #e6f0ff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 30px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 16px 0;
 }
 
 .navbar ul {
@@ -90,7 +99,7 @@ a {
 
 /* Hero */
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .hero .info {
