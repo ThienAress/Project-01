@@ -594,11 +594,16 @@ footer {
   justify-content: center;
   width: 28px;
   height: 28px;
+  border-radius: 3px;
+  background: #f9f9f9;
+}
+
+.footer .social-item + .social-item {
+  margin-left: 16px;
 }
 
 .footer .social-item:hover {
   background: #ebebeb;
-  border-radius: 3px;
 }
 
 .row-bottom {
